@@ -1,0 +1,46 @@
+/* line 1, ../sass/main.scss */
+body {
+  margin: 3px auto;
+  padding: 18px;
+}
+
+/* line 6, ../sass/main.scss */
+h1, h2, p {
+  font-size: 1em;
+  line-height: 1.35;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* line 13, ../sass/main.scss */
+h1, h2 {
+  font-weight: bold;
+}
+
+/* line 17, ../sass/main.scss */
+.main {
+  border: 20px solid #fff;
+  box-shadow: 2px 2px 17px rgba(50, 50, 50, 0.75);
+  padding: 20px;
+  background: #cccccc;
+}
+
+/* line 24, ../sass/main.scss */
+.right {
+  text-align: right;
+}
+
+/* line 28, ../sass/main.scss */
+p, ul {
+  font-family: Palatino, Georgia,'Times New Roman',serif;
+}
+
+/* line 32, ../sass/main.scss */
+p {
+  padding-bottom: 20px;
+}
+
+/* line 36, ../sass/main.scss */
+ul:first-child {
+  padding-left: 17px;
+}

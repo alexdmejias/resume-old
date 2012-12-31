@@ -1,0 +1,38 @@
+body {
+	margin: 3px auto;
+	padding: 18px;
+}
+
+h1, h2, p {
+	font-size: 1em;
+	line-height: 1.35;
+	margin: 0;
+	font-weight: normal;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+.main {
+	border: 20px solid #fff;
+	box-shadow: 2px 2px 17px rgba(50, 50, 50, 0.75);
+	padding: 20px;
+	background: #ccc
+}
+
+.right {
+	text-align: right;
+}
+
+p, ul {
+	font-family: Palatino, Georgia,'Times New Roman',serif;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+ul:first-child {
+	padding-left: 17px;
+}
