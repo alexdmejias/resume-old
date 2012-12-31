@@ -6180,7 +6180,7 @@ h1, h2 {
 /* line 17, ../sass/main.scss */
 .main {
   border: 20px solid #fff;
-  box-shadow: 2px 2px 17px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 25px rgba(50, 50, 50, 0.75);
   padding: 20px;
   background: #cccccc;
 }
@@ -6203,4 +6203,9 @@ p {
 /* line 36, ../sass/main.scss */
 ul:first-child {
   padding-left: 17px;
+}
+
+/* line 40, ../sass/main.scss */
+.title {
+  float: left;
 }

@@ -16,7 +16,7 @@ h1, h2 {
 
 .main {
 	border: 20px solid #fff;
-	box-shadow: 2px 2px 17px rgba(50, 50, 50, 0.75);
+	box-shadow: 2px 2px 25px rgba(50, 50, 50, 0.75);
 	padding: 20px;
 	background: #ccc
 }
@@ -35,4 +35,8 @@ p {
 
 ul:first-child {
 	padding-left: 17px;
+}
+
+.title {
+	float: left;
 }
