@@ -40,3 +40,19 @@ ul:first-child {
 .title {
 	float: left;
 }
+
+@media screen and (max-width: 481px) {
+	body {
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	h1, h2, p {
+		font-size: .90em;
+	}
+
+	.right {
+		float: left;
+		text-align: left;
+	}
+}

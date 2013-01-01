@@ -49,3 +49,22 @@ ul:first-child {
 .title {
   float: left;
 }
+
+@media screen and (max-width: 481px) {
+  /* line 45, ../sass/main.scss */
+  body {
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  /* line 50, ../sass/main.scss */
+  h1, h2, p {
+    font-size: .90em;
+  }
+
+  /* line 54, ../sass/main.scss */
+  .right {
+    float: left;
+    text-align: left;
+  }
+}
