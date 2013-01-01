@@ -41,7 +41,7 @@ ul:first-child {
 	float: left;
 }
 
-@media screen and (max-width: 481px) {
+@media all and (max-width: 481px) {
 	body {
 		padding: 10px;
 		margin: 0 auto;
@@ -52,7 +52,14 @@ ul:first-child {
 	}
 
 	.right {
-		float: left;
 		text-align: left;
+		h2 {
+			float: left
+		}
+	}
+
+	.main {
+		border-width: 10px;
+		padding:10px;
 	}
 }
