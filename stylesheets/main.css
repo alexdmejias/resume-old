@@ -50,7 +50,7 @@ ul:first-child {
   float: left;
 }
 
-@media all and (max-width: 481px) {
+@media all and (max-width: 520px) {
   /* line 45, ../sass/main.scss */
   body {
     padding: 10px;
@@ -63,12 +63,13 @@ ul:first-child {
   }
 
   /* line 54, ../sass/main.scss */
+  .title {
+    float: none;
+  }
+
+  /* line 57, ../sass/main.scss */
   .right {
     text-align: left;
-  }
-  /* line 56, ../sass/main.scss */
-  .right h2 {
-    float: left;
   }
 
   /* line 61, ../sass/main.scss */
