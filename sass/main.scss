@@ -18,10 +18,11 @@ h1, h2 {
 	border: 20px solid #fff;
 	box-shadow: 2px 2px 25px rgba(50, 50, 50, 0.75);
 	padding: 20px;
-	background: #ccc
+	background: #FFFFF2;
+	background: url('images/bgnoise.png') #FFFFF2 repeat scroll;
 }
 
-.right {
+.period, .heading {
 	text-align: right;
 }
 
@@ -37,8 +38,14 @@ ul:first-child {
 	padding-left: 17px;
 }
 
-.title {
+.company {
 	float: left;
+}
+
+@media only screen and (max-width: 767px) {
+	.heading{
+		text-align: left;
+	}
 }
 
 @media all and (max-width: 520px) {
@@ -51,15 +58,19 @@ ul:first-child {
 		font-size: .90em;
 	}
 
-	.title{
+	.company {
 		float: none;
 	}
-	.right {
+	.period, .heading {
 		text-align: left;
 	}
 
 	.main {
 		border-width: 10px;
 		padding:10px;
+	}
+
+	ul {
+		margin: 0
 	}
 }
