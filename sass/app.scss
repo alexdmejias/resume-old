@@ -2,19 +2,18 @@
 @import "settings";
 
 // Comment out this import if you are customizing you imports below
-@import "foundation";
-@import "main";
+// @import "foundation";
 // ----------------------------------------
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
-// @import "compass/css3";
-// @import "foundation/settings";
-// @import "foundation/functions/all";
+@import "compass/css3";
+@import "foundation/settings";
+@import "foundation/functions/all";
 
 // Control which mixins you have access too
 
-// @import "foundation/mixins/clearfix";
+@import "foundation/mixins/clearfix";
 // @import "foundation/mixins/css-triangle";
 // @import "foundation/mixins/font-size";
 
@@ -23,12 +22,12 @@
 // @import "foundation/mixins/respond-to";
 // @import "foundation/mixins/semantic-grid";
 
-// @import "modular-scale";
-// @import "foundation/common/globals";
+@import "modular-scale";
+@import "foundation/common/globals";
 
 // Must include the grid for any responsiveness
 
-// @import "foundation/components/grid";
+@import "foundation/components/grid";
 
 // Control which common styles get compiled
 
@@ -48,3 +47,7 @@
 
 // Media Queries Overrides
 // @import "foundation/components/modules/mqueries";
+
+// =================================== //
+// My stylesheets
+@import "main";
