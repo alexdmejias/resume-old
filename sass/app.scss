@@ -14,7 +14,7 @@
 // Control which mixins you have access too
 
 @import "foundation/mixins/clearfix";
-// @import "foundation/mixins/css-triangle";
+@import "foundation/mixins/css-triangle";
 // @import "foundation/mixins/font-size";
 
 // Must include next two for semantic grid to work
@@ -46,7 +46,7 @@
 // @import "foundation/components/modules/offcanvas";
 
 // Media Queries Overrides
-// @import "foundation/components/modules/mqueries";
+@import "foundation/components/modules/mqueries";
 
 // =================================== //
 // My stylesheets
